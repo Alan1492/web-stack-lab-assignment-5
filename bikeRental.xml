@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<Data xmlns="http://www.bikerental.com"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.bikerental.com bikeRental.xsd">
+
+    <bikeRental>
+        <bike id="B1" type="mountain">
+            <name>Mountain Bike</name>
+            <rentalDate>2024-08-10</rentalDate>
+            <returnDate>2024-08-11</returnDate>
+            <rentalPrice>25.00</rentalPrice>
+            <renterName>John Doe</renterName>
+            <location>Downtown</location>
+        </bike>
+        <bike id="B2" type="road">
+            <name>Road Bike</name>
+            <rentalDate>2024-08-15</rentalDate>
+            <returnDate>2024-08-16</returnDate>
+            <rentalPrice>30.00</rentalPrice>
+            <renterName>Jane Smith</renterName>
+            <location>Uptown</location>
+        </bike>
+    </bikeRental>
+
+    <Rents>
+        <Bikes>
+            <id>1</id>
+            <name>CBR 120</name>
+            <description>Advanced engine</description>
+            <rent>33</rent>
+            <stock>2</stock>
+        </Bikes>
+        <Bikes>
+            <id>2</id>
+            <name>SPLENDOR</name>
+            <description>City-based use</description>
+            <rent>22</rent>
+            <stock>3</stock>
+        </Bikes>
+        <Bikes>
+            <id>3</id>
+            <name>GSX 320</name>
+            <description>Sports bike</description>
+            <rent>65</rent>
+            <stock>1</stock>
+        </Bikes>
+    </Rents>
+</Data>

@@ -1,0 +1,9 @@
+<!ELEMENT bikeRental (rental+)>
+<!ELEMENT rental (bikeModel, renterName, rentalDate, returnDate, rentalPrice, pickupLocation)>
+<!ATTLIST rental id ID #REQUIRED>
+<!ELEMENT bikeModel (#PCDATA)>
+<!ELEMENT renterName (#PCDATA)>
+<!ELEMENT rentalDate (#PCDATA)>
+<!ELEMENT returnDate (#PCDATA)>
+<!ELEMENT rentalPrice (#PCDATA)>
+<!ELEMENT pickupLocation (#PCDATA)>
